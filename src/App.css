@@ -1,0 +1,42 @@
+.app{
+  height: 100vh;
+  
+}
+
+*{
+  
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.containerTree {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.containerFour {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.row{
+  height: 100px;
+  width: 100px;
+  background: brown;
+}
+
+.row1 .row {
+  margin: 25px 0;
+}
+
+.containerTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
